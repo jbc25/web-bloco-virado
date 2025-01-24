@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 301.39 1164.07">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f07e07;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        stroke: #f07e07;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 15.67px;
+      }
+
+      .cls-3, .cls-2 {
+        fill: none;
+      }
+
+      .cls-4 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-2" width="301.39" height="105.23"/>
+    </clipPath>
+  </defs>
+  <g>
+    <polyline class="cls-3" points="232.29 57.91 103.25 135.33 232.29 234.88"/>
+    <polyline class="cls-3" points="224.22 95.83 150.49 140.07 224.22 196.96"/>
+    <circle class="cls-1" cx="210.86" cy="146.39" r="15.67"/>
+  </g>
+  <g>
+    <polyline class="cls-3" points="103.25 357.36 232.29 279.94 103.25 180.4"/>
+    <polyline class="cls-3" points="111.32 319.44 185.05 275.2 111.32 218.32"/>
+    <circle class="cls-1" cx="124.68" cy="268.88" r="15.67"/>
+  </g>
+  <g>
+    <polyline class="cls-3" points="229.96 324.2 100.92 401.62 229.96 501.17"/>
+    <polyline class="cls-3" points="221.9 362.12 148.16 406.36 221.9 463.25"/>
+    <circle class="cls-1" cx="208.53" cy="412.69" r="15.67"/>
+  </g>
+  <g>
+    <polyline class="cls-3" points="100.92 623.65 229.96 546.23 100.92 446.69"/>
+    <polyline class="cls-3" points="108.99 585.73 182.72 541.49 108.99 484.61"/>
+    <circle class="cls-1" cx="122.35" cy="535.17" r="15.67"/>
+  </g>
+  <g>
+    <polyline class="cls-3" points="229.96 590.49 100.92 667.92 229.96 767.46"/>
+    <polyline class="cls-3" points="221.9 628.41 148.16 672.66 221.9 729.54"/>
+    <circle class="cls-1" cx="208.53" cy="678.98" r="15.67"/>
+  </g>
+  <g>
+    <polyline class="cls-3" points="100.92 889.94 229.96 812.52 100.92 712.98"/>
+    <polyline class="cls-3" points="108.99 852.02 182.72 807.78 108.99 750.9"/>
+    <circle class="cls-1" cx="122.35" cy="801.46" r="15.67"/>
+  </g>
+  <g>
+    <polyline class="cls-3" points="227.63 856.78 98.6 934.21 227.63 1033.75"/>
+    <polyline class="cls-3" points="219.57 894.71 145.83 938.95 219.57 995.83"/>
+    <circle class="cls-1" cx="206.2" cy="945.27" r="15.67"/>
+  </g>
+  <g>
+    <polyline class="cls-3" points="98.6 1156.24 227.63 1078.81 98.6 979.27"/>
+    <polyline class="cls-3" points="106.66 1118.31 180.4 1074.07 106.66 1017.19"/>
+    <circle class="cls-1" cx="120.03" cy="1067.75" r="15.67"/>
+  </g>
+  <g class="cls-4">
+    <g>
+      <polyline class="cls-3" points="103.25 91.07 232.29 13.65 103.25 -85.89"/>
+      <polyline class="cls-3" points="111.32 53.15 185.05 8.91 111.32 -47.97"/>
+      <circle class="cls-1" cx="124.68" cy="2.59" r="15.67"/>
+    </g>
+  </g>
+</svg>

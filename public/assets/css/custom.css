@@ -1,0 +1,32 @@
+.white-filter {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(1581%) hue-rotate(215deg) brightness(118%) contrast(100%);
+}
+
+.logo-header img {
+    height: 50px;
+}
+
+.portada {
+    width: 90%;
+    max-width: 600px;
+}
+
+.slogan {
+    text-shadow: 2px 2px 2px #f17d00;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.logo-lineas-ropa {
+    filter: brightness(0) saturate(100%) invert(29%) sepia(16%) saturate(3642%) hue-rotate(289deg) brightness(88%) contrast(89%);
+    width: 80%;
+    max-width: 600px;
+}
+
+a:link, a:visited {
+  text-decoration: none !important;
+}
+
+.logo-ciguena {
+    max-width: 400px;
+}
