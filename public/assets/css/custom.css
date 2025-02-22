@@ -23,8 +23,8 @@
     max-width: 600px;
 }
 
-a:link, a:visited {
-  text-decoration: none !important;
+a {
+  border-bottom: none;
 }
 
 .logo-ciguena {
