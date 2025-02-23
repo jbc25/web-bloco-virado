@@ -569,7 +569,7 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		h2 {
-			font-size: 1.5em;
+			font-size: 2em;
 		}
 
 	}
@@ -1173,7 +1173,7 @@ input, select, textarea {
 
 		ul.icons a {
 			display: inline-block;
-			width: 4em;
+			width: 3.5em;
 			height: 3em;
 			line-height: 2em;
 			text-align: center;
@@ -2187,7 +2187,7 @@ input, select, textarea {
 		}
 
 		#footer a {
-			color: inherit;
+			color: #fff;
 		}
 
 			#footer a:hover {
