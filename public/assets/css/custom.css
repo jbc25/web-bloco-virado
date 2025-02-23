@@ -9,12 +9,22 @@
 .portada {
     width: 90%;
     max-width: 600px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .slogan {
     text-shadow: 2px 2px 2px #f17d00;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 50px;
+    line-height: 1.2;
+}
+
+@media screen and (max-width: 736px) {
+
+    .slogan {
+        font-size: 30px;
+    }
 }
 
 .logo-lineas-ropa {
@@ -23,8 +33,8 @@
     max-width: 600px;
 }
 
-a {
-  border-bottom: none;
+a:link, a:visited {
+  text-decoration: none !important;
 }
 
 .logo-ciguena {
