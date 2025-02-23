@@ -927,6 +927,7 @@ input, select, textarea {
 			-webkit-font-smoothing: antialiased;
 			display: inline-block;
 			font-style: normal;
+			font-size: 30px;
 			font-variant: normal;
 			text-rendering: auto;
 			line-height: 1;
@@ -983,6 +984,7 @@ input, select, textarea {
 			display: block;
 			width: 100%;
 		}
+
 
 		.image.left {
 			float: left;
@@ -1171,8 +1173,8 @@ input, select, textarea {
 
 		ul.icons a {
 			display: inline-block;
-			width: 2em;
-			height: 2em;
+			width: 4em;
+			height: 3em;
 			line-height: 2em;
 			text-align: center;
 			border: 0;

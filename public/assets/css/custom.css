@@ -40,3 +40,25 @@ a:link, a:visited {
 .logo-ciguena {
     max-width: 400px;
 }
+
+.img-bolo {
+	max-height: 300px;
+    height: auto;
+    object-fit: cover;
+}
+
+
+
+.image-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    text-align: center;
+    max-width: 80%;
+}
