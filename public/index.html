@@ -12,16 +12,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
     <link rel="stylesheet" href="assets/css/main.css?v=1.2"/>
     <link rel="stylesheet" href="assets/css/custom.css?v=1.2"/>
+    <link rel="stylesheet" href="assets/css/events.css?v=1.2"/>
     <noscript>
         <link rel="stylesheet" href="assets/css/noscript.css"/>
     </noscript>
 
-    <meta property="og:title" content="Batucada Bloco Virado" />
-    <meta property="og:description" content="El kaos tiene ritmo ¡Nuestras manos lo amplifican! - Vista nuestra web para conocernos ;)" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://blocovirado.org" />
-    <meta property="og:image" content="https://blocovirado.org/images/preview-og3.jpg?v=1.2" />
-    <meta property="og:updated_time" content="2025-02-24T04:50:06+01:00" />
+    <meta property="og:title" content="Batucada Bloco Virado"/>
+    <meta property="og:description"
+          content="El kaos tiene ritmo ¡Nuestras manos lo amplifican! - Vista nuestra web para conocernos ;)"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://blocovirado.org"/>
+    <meta property="og:image" content="https://blocovirado.org/images/preview-og3.jpg?v=1.2"/>
+    <meta property="og:updated_time" content="2025-02-24T04:50:06+01:00"/>
 
 </head>
 <body class="is-preload">
@@ -41,7 +43,7 @@
             ¡Nuestras manos lo amplifican!
         </p>
         <footer>
-            <img src="assets/css/images/arrow.svg" >
+            <img src="assets/css/images/arrow.svg">
         </footer>
     </div>
 </section>
@@ -52,9 +54,11 @@
         <header>
             <h2>Quiénes somos</h2>
         </header>
-        <p>Somos un <b>grupo de batucada</b> de Alcalá de Henares apasionado por los ritmos brasileños como samba carioca y samba reggae,
+        <p>Somos un <b>grupo de batucada</b> de Alcalá de Henares apasionado por los ritmos brasileños como samba
+            carioca y samba reggae,
             y otros como funky, cumbia, merengue y afro.</p>
-        <p> Somos <b>alegría, fiesta, ritmo, animación</b>, y hacemos que toda persona que nos escucha ¡se contagie con nuestra energía!</p>
+        <p> Somos <b>alegría, fiesta, ritmo, animación</b>, y hacemos que toda persona que nos escucha ¡se contagie con
+            nuestra energía!</p>
     </div>
 </section>
 
@@ -64,7 +68,9 @@
         <header>
             <h2>Qué ofrecemos</h2>
         </header>
-        <p>Llevamos la fuerza de la percusión brasileña a cualquier evento y lugar, tanto en movimiento como en estático.<p>
+        <p>Llevamos la fuerza de la percusión brasileña a cualquier evento y lugar, tanto en movimiento como en
+            estático.
+        <p>
             Tocamos en <b>fiestas populares, pasacalles, escuelas, bodas, fiestas particulares y de empresas,
             despedidas de soltero/a, festivales, actos solidarios y benéficos o encuentros de batucadas.</b></p>
     </div>
@@ -86,13 +92,14 @@
                          title="Maratón pa tos (Fund. Gomaespuma) - Octubre 2024"
                          alt="Maratón pa tos (Fund. Gomaespuma) - Octubre 2024"/>
                     <div class="image-title">
-                        Maratón pa tos<p>(Fund. Gomaespuma)<p>- Octubre 2024-
+                        Maratón pa tos<p>(Fund. Gomaespuma)
+                        <p>- Octubre 2024-
                     </div>
                 </a>
             </article>
             <article class="from-right">
                 <a href="images/fulls/alcalasuena24.jpeg" class="image fit purple">
-                    <img class="img-bolo"  src="images/fulls/alcalasuena24.jpeg"
+                    <img class="img-bolo" src="images/fulls/alcalasuena24.jpeg"
                          title="Festival Alcalá Suena - Junio 2024"
                          alt="Festival Alcalá Suena - Junio 2024"/>
                     <div class="image-title">
@@ -112,7 +119,7 @@
             </article>
             <article class="from-right">
                 <a href="images/fulls/ritmosintegran.jpeg" class="image fit purple">
-                    <img class="img-bolo"  src="images/fulls/ritmosintegran.jpeg"
+                    <img class="img-bolo" src="images/fulls/ritmosintegran.jpeg"
                          title="Festival Ritmos que integran - Mayo 2023"
                          alt="Festival Ritmos que integran - Mayo 2023"/>
                     <div class="image-title">
@@ -133,7 +140,7 @@
             </article>
             <article class="from-right">
                 <a href="images/fulls/marcha-zombi.jpg" class="image fit purple">
-                    <img class="img-bolo"  src="images/fulls/marcha-zombi.jpg"
+                    <img class="img-bolo" src="images/fulls/marcha-zombi.jpg"
                          title="Marcha Zombi Alcalá- Octubre 2018"
                          alt="Marcha Zombi Alcalá- Octubre 2018"/>
                     <div class="image-title">
@@ -146,6 +153,26 @@
     </div>
 </section>
 
+
+<!-- Upcoming events -->
+<section id="events" class="main style3 primary">
+    <div class="content">
+        <header>
+            <div class="events-container">
+                <h2>Pŕoximos eventos</h2>
+                <p>
+                <div id="loading" class="loading">Cargando eventos...</div>
+                <div id="no-events" class="no-events" style="display: none;">
+                    No hay bolos a la vista<br>
+                    ¡Síguenos en redes para enterarte de los siguientes!
+                </div>
+                <ul id="event-list" class="event-list"></ul>
+
+            </div>
+        </header>
+    </div>
+</section>
+
 <!-- Contact -->
 <section id="contact" class="main style3 secondary">
     <div class="content">
@@ -153,10 +180,13 @@
             <h2>¡Escríbenos!</h2>
             <p> Si crees que Bloco Virado puede ser parte de esa idea que tienes en mente para organizar un evento,
                 no dudes en ponerte en contacto.</p>
-                <p>Te ofreceremos un presupuesto adecuado a tus necesidades y te aconsejaremos con cualquier duda que tengas. </p>
+            <p>Te ofreceremos un presupuesto adecuado a tus necesidades y te aconsejaremos con cualquier duda que
+                tengas. </p>
 
             <h2>
-            <script type="text/javascript">document.write(`<a href="mailto:&#104;&#111;&#108;&#97;&#64;&#98;&#108;&#111;&#99;&#111;&#118;&#105;&#114;&#97;&#100;&#111;&#46;&#111;&#114;&#103;" rel="nofollow noopener noreferrer">&#104;&#111;&#108;&#97;&#64;&#98;&#108;&#111;&#99;&#111;&#118;&#105;&#114;&#97;&#100;&#111;&#46;&#111;&#114;&#103;</a>`);</script>
+                <script type="text/javascript">
+                    document.write(`<a href="mailto:&#104;&#111;&#108;&#97;&#64;&#98;&#108;&#111;&#99;&#111;&#118;&#105;&#114;&#97;&#100;&#111;&#46;&#111;&#114;&#103;" rel="nofollow noopener noreferrer">&#104;&#111;&#108;&#97;&#64;&#98;&#108;&#111;&#99;&#111;&#118;&#105;&#114;&#97;&#100;&#111;&#46;&#111;&#114;&#103;</a>`);
+                </script>
             </h2>
 
         </header>
@@ -170,22 +200,23 @@
 
     <!-- Icons -->
     <ul class="icons">
-            <li><a href="https://wa.me/34633113013" class="icon brands fa-whatsapp" target="_blank"><span class="label">Whatsapp</span></a>
-            </li>
-            <li><a href="https://www.instagram.com/batucada_bloco_virado/" class="icon brands fa-instagram"
-                   target="_blank"><span class="label">Instagram</span></a></li>
-            <li><a href="https://www.facebook.com/blocovirado" class="icon brands fa-facebook-f" target="_blank"><span
-                    class="label">Facebook</span></a></li>
-            <li><a href="https://www.youtube.com/@blocoviradobatucada8221" class="icon brands fa-youtube"
-                   target="_blank"><span class="label">Youtube</span></a></li>
-            <li><a href="mailto:hola@blocovirado.org" class="icon solid fa-envelope" target="_blank"><span
-                    class="label">Email</span></a></li>
+        <li><a href="https://wa.me/34633113013" class="icon brands fa-whatsapp" target="_blank"><span class="label">Whatsapp</span></a>
+        </li>
+        <li><a href="https://www.instagram.com/batucada_bloco_virado/" class="icon brands fa-instagram"
+               target="_blank"><span class="label">Instagram</span></a></li>
+        <li><a href="https://www.facebook.com/blocovirado" class="icon brands fa-facebook-f" target="_blank"><span
+                class="label">Facebook</span></a></li>
+        <li><a href="https://www.youtube.com/@blocoviradobatucada8221" class="icon brands fa-youtube"
+               target="_blank"><span class="label">Youtube</span></a></li>
+        <li><a href="mailto:hola@blocovirado.org" class="icon solid fa-envelope" target="_blank"><span
+                class="label">Email</span></a></li>
     </ul>
 
     <!-- Menu -->
     <ul class="menu">
         <li>Diseño: <a href="https://html5up.net" target="_blank">HTML5 UP</a></li>
-        <li>Código fuente: <a href="https://github.com/jbc25/web-bloco-virado" class="icon brands fa-github" target="_blank"></a></li>
+        <li>Código fuente: <a href="https://github.com/jbc25/web-bloco-virado" class="icon brands fa-github"
+                              target="_blank"></a></li>
     </ul>
 
 </footer>
@@ -199,6 +230,8 @@
 <script src="assets/js/breakpoints.min.js"></script>
 <script src="assets/js/util.js"></script>
 <script src="assets/js/main.js"></script>
+<script src="assets/js/events.js"></script>
+
 
 </body>
 </html>
