@@ -1,0 +1,48 @@
+{
+  "performances": [
+    {
+      "title": "Maratón pa tos (Fund. Gomaespuma) - Octubre 2024",
+      "title_cover": "Maratón pa tos (Fund. Gomaespuma)<p>-Octubre 2024-",
+      "image": "maraton-pa-tos-full.jpeg",
+      "color": "orange",
+      "position": "left"
+    },
+    {
+      "title": "Festival Alcalá Suena - Junio 2024",
+      "title_cover": "Festival Alcalá Suena<p>-Junio 2024-",
+      "image": "alcalasuena24.jpeg",
+      "color": "purple",
+      "position": "right"
+    },
+
+    {
+      "title": "Cabalgata Villanueva de la Torre",
+      "title_cover": "Cabalgata Villanueva de la Torre",
+      "image": "cabalgatavillanueva.jpeg",
+      "color": "orange",
+      "position": "left"
+    },
+    {
+      "title": "Festival Ritmos que integran - Mayo 2023",
+      "title_cover": "Festival Ritmos que integran<p>- Mayo 2023-",
+      "image": "ritmosintegran.jpeg",
+      "color": "purple",
+      "position": "right"
+    },
+
+    {
+      "title": "Marcha benéfica Dale Caña al ELA - Febrero 2024",
+      "title_cover": "Marcha benéfica Dale Caña al ELA<p>- Febrero 2024-",
+      "image": "marcha-ela.jpeg",
+      "color": "orange",
+      "position": "left"
+    },
+    {
+      "title": "Marcha Zombi Alcalá - Octubre 2018",
+      "title_cover": "Marcha Zombi Alcalá<p>- Octubre 2018-",
+      "image": "marcha-zombi.jpg",
+      "color": "purple",
+      "position": "right"
+    }
+  ]
+}

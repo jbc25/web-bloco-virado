@@ -87,66 +87,18 @@
         <!-- Gallery  -->
         <div class="gallery">
 
-            <article class="from-left">
-                <a href="images/fulls/maraton-pa-tos-full.jpeg" class="image fit orange">
-                    <img class="img-bolo" src="images/fulls/maraton-pa-tos-full.jpeg"
-                         title="Maratón pa tos (Fund. Gomaespuma) - Octubre 2024"
-                         alt="Maratón pa tos (Fund. Gomaespuma) - Octubre 2024"/>
+            {{# performances }}
+            <article class="from-{{ position }}">
+                <a href="images/fulls/{{ image }}" class="image fit {{ color }}">
+                    <img class="img-bolo" src="images/fulls/{{ image }}"
+                         title="{{{ title }}}"
+                         alt="{{{ title }}}"/>
                     <div class="image-title">
-                        Maratón pa tos (Fund. Gomaespuma)<p>-Octubre 2024-
+                        {{{ title_cover }}}
                     </div>
                 </a>
             </article>
-            <article class="from-right">
-                <a href="images/fulls/alcalasuena24.jpeg" class="image fit purple">
-                    <img class="img-bolo" src="images/fulls/alcalasuena24.jpeg"
-                         title="Festival Alcalá Suena - Junio 2024"
-                         alt="Festival Alcalá Suena - Junio 2024"/>
-                    <div class="image-title">
-                        Festival Alcalá Suena<p>-Junio 2024-
-                    </div>
-                </a>
-            </article>
-            <article class="from-left">
-                <a href="images/fulls/cabalgatavillanueva.jpeg" class="image fit orange">
-                    <img class="img-bolo" src="images/fulls/cabalgatavillanueva.jpeg"
-                         title="Cabalgata Villanueva de la Torre"
-                         alt="Cabalgata Villanueva de la Torre"/>
-                    <div class="image-title">
-                        Cabalgata Villanueva de la Torre
-                    </div>
-                </a>
-            </article>
-            <article class="from-right">
-                <a href="images/fulls/ritmosintegran.jpeg" class="image fit purple">
-                    <img class="img-bolo" src="images/fulls/ritmosintegran.jpeg"
-                         title="Festival Ritmos que integran - Mayo 2023"
-                         alt="Festival Ritmos que integran - Mayo 2023"/>
-                    <div class="image-title">
-                        Festival Ritmos que integran<p>- Mayo 2023-
-                    </div>
-                </a>
-            </article>
-            <article class="from-left">
-                <a href="images/fulls/marcha-ela.jpeg" class="image fit orange">
-                    <img class="img-bolo" src="images/fulls/marcha-ela.jpeg"
-                         title="Marcha benéfica Dale Caña al ELA - Febrero 2024"
-                         alt="Marcha benéfica Dale Caña al ELA - Febrero 2024"/>
-                    <div class="image-title">
-                        Marcha benéfica Dale Caña al ELA<p>- Febrero 2024-
-                    </div>
-                </a>
-            </article>
-            <article class="from-right">
-                <a href="images/fulls/marcha-zombi.jpg" class="image fit purple">
-                    <img class="img-bolo" src="images/fulls/marcha-zombi.jpg"
-                         title="Marcha Zombi Alcalá - Octubre 2018"
-                         alt="Marcha Zombi Alcalá - Octubre 2018"/>
-                    <div class="image-title">
-                        Marcha Zombi Alcalá<p>- Octubre 2018-
-                    </div>
-                </a>
-            </article>
+            {{/ performances }}
         </div>
 
     </div>
