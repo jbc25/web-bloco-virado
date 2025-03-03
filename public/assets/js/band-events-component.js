@@ -14,7 +14,7 @@ class BandEvents extends HTMLElement {
 
     async fetchEvents() {
         try {
-            const response = await fetch("events.json");
+            const response = await fetch(this.apiUrl);
             if (!response.ok) throw new Error('Network response was not ok');
             const data = await response.json();
             this.renderEvents(data['events']);
@@ -77,13 +77,14 @@ class BandEvents extends HTMLElement {
     render() {
         this.shadowRoot.innerHTML = `
             <style>
-                .events-container { font-family: 'Segoe UI', sans-serif; max-width: 900px; margin: 0 auto; padding: 20px; }
+                .events-container { text-align: center; max-width: 900px; margin: 0 auto; padding: 20px; }
+                .event-header { font-size: 2.25em; line-height: 1.25em; letter-spacing: -0.05em; }
                 .event-list { display: inline-grid; grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr)); gap: 30px; list-style: none; padding: 0; }
                 .event-card { border-radius: 12px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); background: #fff; transition: transform 0.3s; }
                 .event-card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); }
-                .event-poster { width: 100%; height: 200px; object-fit: cover; border-bottom: 1px solid #eee; }
+                .event-poster { width: 100%; height: 200px; object-fit: cover; border-bottom: 1px solid #eee; border-top-right-radius: 12px; border-top-left-radius: 12px;}
                 .event-info { padding: 20px; }
-                .event-date { color: #e63946; font-weight: 600; font-size: 1.1rem; line-height: 1.5 }
+                .event-date { color: #ad4582; font-weight: 600; font-size: 1.1rem; line-height: 1.5 }
                 .event-venue { color: #1d3557; font-weight: 600; font-size: 1.2rem; }
                 .event-address { color: #457b9d; font-size: 0.9rem; line-height: 1.5; }
                 .event-description { color: #333; font-size: 0.95rem; line-height: 1.5; overflow: hidden; -webkit-line-clamp: 4; -webkit-box-orient: vertical; }
