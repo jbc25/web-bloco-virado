@@ -12,7 +12,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
     <link rel="stylesheet" href="assets/css/main.css?v=1.2"/>
     <link rel="stylesheet" href="assets/css/custom.css?v=1.2"/>
-    <link rel="stylesheet" href="assets/css/events.css?v=1.2"/>
     <noscript>
         <link rel="stylesheet" href="assets/css/noscript.css"/>
     </noscript>
@@ -157,17 +156,8 @@
 <section id="events" class="main style3 primary">
     <div class="content">
         <header>
-            <div class="events-container">
-                <h2>Pŕoximos eventos</h2>
-                <p>
-                <div id="loading" class="loading">Cargando eventos...</div>
-                <div id="no-events" class="no-events" style="display: none;">
-                    No hay bolos a la vista<br>
-                    ¡Síguenos en redes para enterarte de los siguientes!
-                </div>
-                <ul id="event-list" class="event-list"></ul>
+            <band-events band-id="467"></band-events>
 
-            </div>
         </header>
     </div>
 </section>
@@ -231,7 +221,8 @@
 <script src="assets/js/breakpoints.min.js"></script>
 <script src="assets/js/util.js"></script>
 <script src="assets/js/main.js"></script>
-<script src="assets/js/events.js"></script>
+
+<script src="assets/js/band-events-component.js"></script>
 
 
 </body>

@@ -25,7 +25,7 @@ Créditos:
 		Font Awesome (fontawesome.io)
 
 	Other:
-        [Chevron](https://pypi.org/project/chevron/)
+        Chevron (https://pypi.org/project/chevron)
 		jQuery (jquery.com)
 		Poptrox (github.com/ajlkn/jquery.poptrox)
 		Scrollex (github.com/ajlkn/jquery.scrollex)
