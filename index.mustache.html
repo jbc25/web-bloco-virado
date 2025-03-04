@@ -106,6 +106,7 @@
 
 <!-- Upcoming events -->
 <band-events band-id="265"></band-events>
+<script src="assets/js/band-events-component.js"></script>
 
 
 <!-- Contact -->
@@ -145,8 +146,13 @@
                 class="label">Facebook</span></a></li>
         <li><a href="https://www.youtube.com/@blocoviradobatucada8221" class="icon brands fa-youtube"
                target="_blank"><span class="label">Youtube</span></a></li>
-        <li><a href="mailto:hola@blocovirado.org" class="icon solid fa-envelope" target="_blank"><span
-                class="label">Email</span></a></li>
+        <li>
+                <script type="text/javascript">
+                    document.write(`<a href="mailto:&#104;&#111;&#108;&#97;&#64;&#98;&#108;&#111;&#99;&#111;&#118;&#105;&#114;&#97;&#100;&#111;&#46;&#111;&#114;&#103;"
+                    rel="nofollow noopener noreferrer" class="icon solid fa-envelope">
+                    <span class="label">Email</span></a>`);
+                </script>
+        </li>
     </ul>
 
     <!-- Menu -->
@@ -167,9 +173,6 @@
 <script src="assets/js/breakpoints.min.js"></script>
 <script src="assets/js/util.js"></script>
 <script src="assets/js/main.js"></script>
-
-<script src="assets/js/band-events-component.js"></script>
-
 
 </body>
 </html>
