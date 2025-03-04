@@ -19,7 +19,7 @@ a través del fichero [requirements.txt](requirements.txt)
 Se ha desarrollado un script que se conecta con el API de la web [Alcalá es Música](https://alcalaesmusica.org) 
 para mostrar los próximos eventos de una banda. 
 
-![Próximos eventos demo web](doc/proximos-eventos-demo.jpg | width=400)
+![Próximos eventos demo web](doc/proximos-eventos-demo.jpg =400x)
 
 Está encapsulado a través de un Web-component reutilizable, por si cualquier banda registrada en la web de
 Alcalá es Música quiere utilizarlo. Para ello, sólo hay que incluir este fichero: 
