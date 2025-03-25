@@ -2,7 +2,8 @@ class BandEvents extends HTMLElement {
     constructor() {
         super();
         this.attachShadow({ mode: 'open' });
-        this.bandId = this.getAttribute('band-id') || '';
+        this.bandId = this.getAttribute('id-banda') || null;
+        this.placeId = this.getAttribute('id-sala') || null;
         this.apiHost = 'https://alcalaesmusica.org';
         this.apiUrl = this.apiHost + '/api/v1/upcoming_events/?limit=5000';
     }
@@ -30,7 +31,15 @@ class BandEvents extends HTMLElement {
         const loadingElement = this.shadowRoot.querySelector('#loading');
         const eventsSectionElement = this.shadowRoot.querySelector('#events');
 
-        const filteredEvents = events.filter(event => event.bands?.some(band => band.id == this.bandId));
+        var filteredEvents = []
+        if (this.bandId != null) {
+            filteredEvents = events.filter(event => event.bands?.some(band => band.id == this.bandId));
+        } else if (this.placeId != null) {
+            filteredEvents = events.filter(event => event.venues?.id == this.placeId);
+        } else {
+            console.error('Missing bandId or placeId', error);
+            return
+        }
 
         loadingElement.style.display = 'none';
 
@@ -103,4 +112,4 @@ class BandEvents extends HTMLElement {
     }
 }
 
-customElements.define('band-events', BandEvents);
+customElements.define('eventos-aem', BandEvents);
