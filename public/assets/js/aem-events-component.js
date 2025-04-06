@@ -3,7 +3,7 @@ class BandEvents extends HTMLElement {
         super();
         this.attachShadow({ mode: 'open' });
         this.bandId = this.getAttribute('id-banda') || null;
-        this.placeId = this.getAttribute('id-sala') || null;
+        this.placeId = this.getAttribute('id-espacio') || null;
         this.apiHost = 'https://alcalaesmusica.org';
         this.apiUrl = this.apiHost + '/api/v1/upcoming_events/?limit=5000';
     }
