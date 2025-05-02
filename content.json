@@ -1,48 +1,34 @@
 {
   "performances": [
     {
+      "title": "Festival Bombartaker - Abril 2025",
+      "image": "bombartaker-2025.jpeg",
+      "url": "https://www.dream-alcala.com/el-festival-bombartaker-2025-de-alcala-de-henares-ya-tiene-fecha/"
+    },
+    {
+      "title": "Marcha benéfica Dale Caña al ELA - Febrero 2025",
+      "image": "marcha-ela.jpeg",
+      "url": "https://www.ayto-alcaladehenares.es/tres-mil-personas-corren-en-alcala-de-henares-la-carrera-solidaria-dale-cana-al-ela/"
+    },
+    {
       "title": "Maratón pa tos (Fund. Gomaespuma) - Octubre 2024",
-      "title_cover": "Maratón pa tos (Fund. Gomaespuma)<p>-Octubre 2024-",
       "image": "maraton-pa-tos-full.jpeg",
-      "color": "orange",
-      "position": "left"
+      "url": "https://maratonpatos.com/"
     },
     {
       "title": "Festival Alcalá Suena - Junio 2024",
-      "title_cover": "Festival Alcalá Suena<p>-Junio 2024-",
       "image": "alcalasuena24.jpeg",
-      "color": "purple",
-      "position": "right"
-    },
-
-    {
-      "title": "Cabalgata Villanueva de la Torre",
-      "title_cover": "Cabalgata Villanueva de la Torre",
-      "image": "cabalgatavillanueva.jpeg",
-      "color": "orange",
-      "position": "left"
+      "url": "https://alcalasuena.es"
     },
     {
       "title": "Festival Ritmos que integran - Mayo 2023",
-      "title_cover": "Festival Ritmos que integran<p>- Mayo 2023-",
       "image": "ritmosintegran.jpeg",
-      "color": "purple",
-      "position": "right"
-    },
-
-    {
-      "title": "Marcha benéfica Dale Caña al ELA - Febrero 2024",
-      "title_cover": "Marcha benéfica Dale Caña al ELA<p>- Febrero 2024-",
-      "image": "marcha-ela.jpeg",
-      "color": "orange",
-      "position": "left"
+      "url": "https://www.dream-alcala.com/vibra-alcala-de-henares-tercera-edicion-del-festival-ritmos-que-integran/"
     },
     {
       "title": "Marcha Zombi Alcalá - Octubre 2018",
-      "title_cover": "Marcha Zombi Alcalá<p>- Octubre 2018-",
       "image": "marcha-zombi.jpg",
-      "color": "purple",
-      "position": "right"
+      "url": "https://www.facebook.com/marchazombiealcala/"
     }
   ]
 }
