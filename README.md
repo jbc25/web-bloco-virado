@@ -23,7 +23,7 @@ para mostrar los próximos eventos de una banda o de un espacio.
 
 Está encapsulado a través de un Web-component reutilizable, por si cualquier sala o banda registrada en la web de
 Alcalá es Música quiere utilizarlo en su propia web. Para ello, sólo hay que incluir este fichero: 
-[band-events-component.js](public/assets/js/aem-events-component.js) en la web de la banda, e
+[aem-events-component.js](public/assets/js/aem-events-component.js) en la web de la banda, e
 insertar estas líneas de código en el lugar del código html donde se quieren ver los eventos:
 
 ```html

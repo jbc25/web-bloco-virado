@@ -1,4 +1,4 @@
-class BandEvents extends HTMLElement {
+class AeMEvents extends HTMLElement {
     constructor() {
         super();
         this.attachShadow({ mode: 'open' });
@@ -112,4 +112,4 @@ class BandEvents extends HTMLElement {
     }
 }
 
-customElements.define('eventos-aem', BandEvents);
+customElements.define('eventos-aem', AeMEvents);
