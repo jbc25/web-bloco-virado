@@ -18,7 +18,8 @@ class AeMEvents extends HTMLElement {
             const response = await fetch(this.apiUrl);
             if (!response.ok) throw new Error('Network response was not ok');
             const data = await response.json();
-            this.renderEvents(data['events']);
+            let upcoming_events = data['events'].filter(event => new Date(event.day) >= new Date());
+            this.renderEvents(upcoming_events);
         } catch (error) {
             console.error('Error fetching events:', error);
             this.shadowRoot.querySelector('#loading').textContent = 'Error loading events. Please try again later.';
