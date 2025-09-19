@@ -65,15 +65,16 @@ class AeMEvents extends HTMLElement {
 
                 let venueName = event.venues?.name || event.venue_name;
                 let venueAddress = event.venues?.address || event.venue_address;
-                let description = event.description?.substring(0, 200) || ''
+                let title = event.title || '';
+                let description = event.description?.substring(0, 200) || '';
 
                 eventCard.innerHTML = `
                     <a href="${this.apiHost}/events/${event.id}" target="_blank">
                         ${event.poster ? `<img src="${this.apiHost}${event.poster}" class="event-poster">` : ''}
                         <div class="event-info">
+                            <h3 class="event-title">${title}</h3>
                             <p class="event-date">${eventDate}<br>${timeDisplay}</p>
-                            <h3 class="event-venue">${venueName || '(No hay información del lugar)'}</h3>
-                            <p class="event-address">${venueAddress || ''}</p>
+                            <p class="event-venue">${venueName || '(No hay información del lugar)'} (${venueAddress || ''})</p>
                             <p class="event-description">${description}...</p>
                         </div>
                     </a>
@@ -92,11 +93,11 @@ class AeMEvents extends HTMLElement {
                 .event-list { display: inline-grid; grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr)); gap: 30px; list-style: none; padding: 0; }
                 .event-card { border-radius: 12px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); background: #fff; transition: transform 0.3s; }
                 .event-card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); }
-                .event-poster { width: 100%; height: 200px; object-fit: cover; border-bottom: 1px solid #eee; border-top-right-radius: 12px; border-top-left-radius: 12px;}
-                .event-info { padding: 20px; }
+                .event-poster { width: 100%; height: 300px; object-fit: cover; border-bottom: 1px solid #eee; border-top-right-radius: 12px; border-top-left-radius: 12px;}
+                .event-info { padding: 5px; }
                 .event-date { color: #ad4582; font-weight: 600; font-size: 1.1rem; line-height: 1.5 }
-                .event-venue { color: #1d3557; font-weight: 600; font-size: 1.2rem; }
-                .event-address { color: #457b9d; font-size: 0.9rem; line-height: 1.5; }
+                .event-title { color: #1d3557; font-weight: 600; font-size: 1.7rem; }
+                .event-venue { color: #457b9d; font-size: 0.9rem; line-height: 1.5; }
                 .event-description { color: #333; font-size: 0.95rem; line-height: 1.5; overflow: hidden; -webkit-line-clamp: 4; -webkit-box-orient: vertical; }
                 .loading, .no-events { text-align: center; padding: 40px; font-size: 1.2rem; }
                 .loading { color: #457b9d; }
